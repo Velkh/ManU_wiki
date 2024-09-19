@@ -129,57 +129,56 @@ figcaption {
 
 
 aside {
-    background-color: #f8f9fa;   /* Warna latar terang (mirip Wikipedia) */
-    border: 1px solid #a2a9b1;   /* Batas abu-abu untuk memberikan kontras */
-    padding: 20px;               /* Ruang di dalam aside */
-    margin: 20px 30px;           /* Jarak di sekitar aside (atas/bawah 20px, kiri/kanan 30px) */
-    font-size: 0.875rem;          /* Ukuran font lebih kecil */
-    line-height: 1.6;            /* Jarak antar baris */
-    border-radius: 4px;          /* Sudut melengkung */
-    width: 300px;                /* Lebar maksimal aside */
-    float: right;                /* Aside berada di sebelah kanan teks utama */
+    background-color: #f8f9fa;   
+    border: 1px solid #a2a9b1;   
+    padding: 20px;               
+    margin: 20px 30px;           
+    font-size: 0.875rem;         
+    line-height: 1.6;                
+    border-radius: 4px;         
+    width: 300px;                
+    float: right;                
   }
   
   aside h2, aside h3 {
     text-align: center;
-    font-size: 1.125rem;          /* Ukuran heading di dalam aside */
-    color: #54595d;               /* Warna teks heading */
-    margin-top: 0;                /* Hilangkan margin atas pada heading */
-    margin-bottom: 10px;          /* Beri jarak bawah */
+    font-size: 1.125rem;          
+    color: #54595d;               
+    margin-top: 0;                
+    margin-bottom: 10px;         
   }
-  
+
   aside p {
-    margin-bottom: 1.5em;         /* Jarak antar paragraf lebih besar */
+    margin-bottom: 1.5em;         
   }
   
   aside img {
-    display: block;               /* Memastikan gambar tampil sebagai elemen blok */
-    margin: 0 auto 15px;          /* Pusatkan gambar dan beri jarak bawah */
-    max-width: 100%;              /* Gambar responsif */
-    height: auto;                 /* Mempertahankan rasio gambar */
+    display: block;               
+    margin: 0 auto 15px;          
+    max-width: 100%;              
+    height: auto;
   }
   
   aside a {
-    color: #0645ad;               /* Warna link Wikipedia */
-    text-decoration: none;        /* Hilangkan garis bawah */
+    color: #0645ad;
+    text-decoration: none;        
   }
   
   aside a:hover {
-    text-decoration: underline;   /* Tampilkan garis bawah saat di-hover */
+    text-decoration: underline; 
   }
 
   .large-image {
-    width: 200px; /* Ubah lebar sesuai kebutuhan */
-    height: auto; /* Mempertahankan rasio aspek */
+    width: 200px;
+    height: auto; 
 }
 
-
   footer {
-    background-color: #d32d2f; /* Light grey background */
+    background-color: #d32d2f;
     color: #ffffff;
     text-align: center;
     padding: 15px;
-    position: relative; /* Changed from fixed to relative */
+    position: relative;
     width: 100%;
     bottom: 0;
 }
@@ -189,7 +188,7 @@ footer p {
 }
 
 footer a {
-    color: #ffffff; /* Manchester United Red */
+    color: #ffffff; 
     text-decoration: none;
 }
 
@@ -199,8 +198,8 @@ footer a:hover {
  
   @media (min-width: 768px) {
     aside {
-      float: right;              /* Aside akan berada di sebelah kanan di layar besar */
-      width: 25%;                /* Lebar aside akan menjadi 25% dari layar */
+      float: right;              
+      width: 25%;                
     }
   }
   
