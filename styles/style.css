@@ -12,11 +12,7 @@ h1 {
     color: #f4f4f4;
 }
 
-h2 {
-    color: #d32d2f;
-}
-
-h3 {
+h2, h3 {
     color: #d32d2f;
 }
 
@@ -24,21 +20,18 @@ h3 {
     scroll-behavior: smooth;
 }
 
-
 header {
-
     background-color: #d32d2f;
     color: white;
     padding: 20px;
     text-align: center;
     background-image: url('../assets/OldTrafford.jpg');
     background-size: cover;
-    background-position: bottom; 
-    background-attachment: fixed; 
-    color: white; 
+    background-position: bottom;
+    background-attachment: fixed;
+    color: white;
     text-shadow: 1px 1px 2px black;
-    height: 300px; 
-
+    height: 300px;
 }
 
 nav a {
@@ -60,13 +53,11 @@ article {
     margin-bottom: 30px;
 }
 
-/* Overview Section */
 #overview p {
     text-align: justify;
     margin-bottom: 15px;
 }
 
-/* Squad List Table */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -100,7 +91,6 @@ img {
     height: auto;
 }
 
-/* Kits Section */
 #kits {
     display: flex;
     justify-content: space-around;
@@ -132,53 +122,55 @@ figcaption {
     color: #333;
 }
 
-
 aside {
-    background-color: #f8f9fa;   
-    border: 1px solid #a2a9b1;   
-    padding: 20px;               
-    margin: 20px 30px;           
-    font-size: 0.875rem;         
-    line-height: 1.6;                
-    border-radius: 4px;         
-    width: 300px;                
-    float: right;                
-  }
-  
-  aside h2, aside h3 {
-    text-align: center;
-    font-size: 1.125rem;          
-    color: #54595d;               
-    margin-top: 0;                
-    margin-bottom: 10px;         
-  }
-
-  aside p {
-    margin-bottom: 1.5em;         
-  }
-  
-  aside img {
-    display: block;               
-    margin: 0 auto 15px;          
-    max-width: 100%;              
-    height: auto;
-  }
-  
-  aside a {
-    color: #0645ad;
-    text-decoration: none;        
-  }
-  
-  aside a:hover {
-    text-decoration: underline; 
-  }
-
-  .large-image {
-    width: 200px;
-    height: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    padding: 20px;
+    margin: 20px 30px;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    border-radius: 4px;
+    width: 300px;
+    float: right;
 }
 
-  footer {
+aside h2, aside h3 {
+    text-align: center;
+    font-size: 1.125rem;
+    color: #54595d;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+aside p {
+    margin-bottom: 1.5em;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+aside a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+.large-image {
+    width: 200px;
+    height: auto;
+}
+
+footer {
     background-color: #d32d2f;
     color: #ffffff;
     text-align: center;
@@ -193,18 +185,16 @@ footer p {
 }
 
 footer a {
-    color: #ffffff; 
+    color: #ffffff;
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline;
 }
- 
-  @media (min-width: 768px) {
+
+@media (min-width: 768px) {
     aside {
-      float: right;              
-      width: 25%;                
+        width: 25%;
     }
-  }
-  
+}
